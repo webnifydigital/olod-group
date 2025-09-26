@@ -5,7 +5,6 @@ import Fundraisers from "@/features/home/components/fundraisers";
 import Help from "@/features/home/components/help";
 import JoinOurCommunity from "@/features/home/components/join-our-community";
 import OurMission from "@/features/home/components/our-mission";
-import Team from "@/features/home/components/team";
 
 export default function Home() {
 	return (
@@ -14,9 +13,9 @@ export default function Home() {
 			<AboutUs />
 			<Fundraisers />
 			<JoinOurCommunity />
-			<OurMission />
 			<Help />
-		{/* 	<Team /> */}
+			<OurMission />
+			{/* 	<Team /> */}
 			<FAQ />
 		</main>
 	);
