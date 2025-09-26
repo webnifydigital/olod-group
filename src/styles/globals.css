@@ -110,14 +110,3 @@
 		@apply mb-28;
 	}
 }
-
-/* .test {
-	clip-path: polygon(
-		0 0,
-		calc(100% - 30px) 0,
-		100% 10px,
-		100% 100%,
-		10px 100%,
-		0 calc(100% - 10px)
-	);
-} */

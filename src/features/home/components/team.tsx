@@ -15,7 +15,7 @@ const Team = () => {
 			<div className="grid grid-cols-4 gap-5">
 				{TEAM_MEMBERS.map((team) => (
 					<div key={team.id}>
-						<div className="relative rounded-2xl overflow-hidden w-full h-[300px] mb-4 test">
+						<div className="relative rounded-2xl overflow-hidden w-full h-[300px] mb-4">
 							<Image
 								src={team.image}
 								alt={team.name}
