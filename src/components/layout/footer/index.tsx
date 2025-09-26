@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import type React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { TiHeartFullOutline } from "react-icons/ti";
 
 interface Footer7Props {
@@ -58,28 +59,36 @@ const defaultSections = [
 const defaultSocialLinks = [
 	{
 		icon: (
-			<FaInstagram className="size-9 text-green-dark rounded-full bg-white p-2" />
+			<div className="size-9 flex items-center justify-center bg-background rounded-full">
+				<FaInstagram className="text-green-dark size-5" />
+			</div>
 		),
 		href: "#",
 		label: "Instagram",
 	},
 	{
 		icon: (
-			<FaFacebook className="size-9 text-green-dark rounded-full bg-white p-2" />
+			<div className="size-9 flex items-center justify-center bg-background rounded-full">
+				<FaFacebook className="text-green-dark size-5" />
+			</div>
 		),
 		href: "#",
 		label: "Facebook",
 	},
 	{
 		icon: (
-			<FaTwitter className="size-9 text-green-dark rounded-full bg-white p-2" />
+			<div className="size-9 flex items-center justify-center bg-background rounded-full">
+				<FaXTwitter className="text-green-dark size-5" />
+			</div>
 		),
 		href: "#",
 		label: "Twitter",
 	},
 	{
 		icon: (
-			<FaLinkedin className="size-9 text-green-dark rounded-full bg-white p-2" />
+			<div className="size-9 flex items-center justify-center bg-background rounded-full">
+				<FaLinkedin className="text-green-dark size-5" />
+			</div>
 		),
 		href: "#",
 		label: "LinkedIn",
