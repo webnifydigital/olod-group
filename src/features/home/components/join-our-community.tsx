@@ -23,7 +23,7 @@ const JoinOurCommunity = () => {
 
 			<div className="flex flex-col items-center justify-center relative">
 				<h2 className="text-center text-foreground text-2xl w-[600px]">
-					Join our community for donating and be a part of a positive change in
+					Join our community for supporting dreams and be a part of a positive change in
 					the world. With over:
 				</h2>
 

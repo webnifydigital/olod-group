@@ -45,11 +45,11 @@ const Index = () => {
 				transition={{
 					duration: 0.8,
 				}}
-				className="sticky top-0 flex items-center justify-between px-20 py-3 bg-white z-50 border-b"
+				className="sticky top-0 flex items-center justify-center px-20 py-3 bg-white z-50 border-b"
 			>
 				<Logo />
-				<NavLinks />
-				<CallToActions />
+				{/* <NavLinks /> */}
+				{/* <CallToActions /> */}
 			</motion.nav>
 		</AnimatePresence>
 	);

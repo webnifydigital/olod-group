@@ -50,7 +50,7 @@ const OurMission = () => {
 				<div className="flex items-center gap-6 border-b border-dashed mb-10 pb-10">
 					<Button className="px-4">
 						<TiHeartFullOutline />
-						Donate Now
+						Join Us
 					</Button>
 					<Link href="/" className={cn(buttonVariants({ variant: "outline" }))}>
 						More Details <LuArrowUpRight />

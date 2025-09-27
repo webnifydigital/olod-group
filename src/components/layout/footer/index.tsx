@@ -43,7 +43,7 @@ const defaultSections = [
 		links: [
 			{ name: "About Us", href: "#" },
 			{ name: "Campaigns", href: "#" },
-			{ name: "Donate", href: "#" },
+			{ name: "Join Us", href: "#" },
 		],
 	},
 	{
@@ -185,7 +185,7 @@ const Footer = ({
 						| All rights reserved.
 					</p>
 					<Button>
-						<TiHeartFullOutline /> Donate now
+						<TiHeartFullOutline /> Join Us
 					</Button>
 				</div>
 			</div>

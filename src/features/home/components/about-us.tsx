@@ -31,10 +31,10 @@ const AboutUs = () => {
 				<div className="flex items-center gap-6">
 					<Button className="px-4">
 						<TiHeartFullOutline />
-						Donate Now
+						Join Us
 					</Button>
 					<Link href="/" className={cn(buttonVariants({ variant: "outline" }))}>
-						Our Programmes <LuArrowUpRight />
+						Sign In <LuArrowUpRight />
 					</Link>
 				</div>
 			</article>

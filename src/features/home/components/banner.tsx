@@ -36,10 +36,10 @@ const Banner = () => {
 				<div className="flex items-center justify-center gap-2">
 					<Button className="px-4">
 						<TiHeartFullOutline />
-						Donate Now
+						Join Us
 					</Button>
 					<Link href="/" className={cn(buttonVariants({ variant: "outline" }))}>
-						Our Programmes <LuArrowUpRight />
+						Sign In <LuArrowUpRight />
 					</Link>
 				</div>
 			</article>
@@ -61,7 +61,7 @@ const Banner = () => {
 							variant={"outline"}
 							className="w-full bg-white/10 text-white border-white/10 hover:bg-white/10 hover:text-white justify-between px-0 py-6 pr-2 pl-4"
 						>
-							Donate now{" "}
+							Join us{" "}
 							<div className="bg-primary size-9 flex items-center justify-center rounded-full">
 								<LuArrowUpRight className="text-green-dark size-5" />
 							</div>
@@ -95,7 +95,7 @@ const Banner = () => {
 
 				<div className="flex-1 bg-[#D2DBDB] rounded-4xl p-2 flex flex-col gap-4 justify-between">
 					<p className="text-foreground font-dm-serif-display font-bold text-center px-3 py-7 leading-8 text-[26px] mb-2">
-						Join 10,000+ People Donate
+						Join 10,000+ People Dreams
 					</p>
 
 					<Button
