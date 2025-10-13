@@ -22,16 +22,16 @@ const JoinOurCommunity = () => {
 			/>
 
 			<div className="flex flex-col items-center justify-center relative">
-				<h2 className="text-center text-foreground text-2xl w-[600px]">
-					Join our community for supporting dreams and be a part of a positive change in
-					the world. With over:
+				<h2 className="text-center text-dark text-2xl w-[600px]">
+					Join our community for supporting dreams and be a part of a positive
+					change in the world. With over:
 				</h2>
 
-				<h3 className="text-center font-dm-serif-display text-foreground text-8xl font-medium my-10">
+				<h3 className="text-center font-dm-serif-display text-dark text-8xl font-medium my-10">
 					120,859+
 				</h3>
 
-				<p className="text-center text-foreground font-medium mb-3">
+				<p className="text-center text-dark font-medium mb-3">
 					people already joining
 				</p>
 				<Button variant={"secondary"}>Yes I want to join community</Button>

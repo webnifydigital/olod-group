@@ -25,10 +25,10 @@ const Banner = () => {
 						Welcome to the Olod Foundation Gala - A Celebration of
 					</p>
 				</div>
-				<h1 className="text-foreground font-dm-serif-display font-extrabold text-6xl text-center mb-4">
+				<h1 className="text-dark font-dm-serif-display font-extrabold text-6xl text-center mb-4">
 					Great futures are built with a small charity
 				</h1>
-				<p className="text-secondary-foreground text-center text-lg px-20 mb-12">
+				<p className="text-secondary-dark text-center text-lg px-20 mb-12">
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
 					beatae esse repudiandae tempore.
 				</p>
@@ -67,7 +67,7 @@ const Banner = () => {
 							</div>
 						</Button>
 					</div>
-					<div className="bg-foreground rounded-4xl p-6 flex items-center gap-5">
+					<div className="bg-dark rounded-4xl p-6 flex items-center gap-5">
 						<BsEmojiSmile className="text-white size-12" />
 						<p className="text-background font-dm-serif-display font-bold text-2xl leading-7">
 							Let them be heard
@@ -90,20 +90,20 @@ const Banner = () => {
 						fill
 						className="absolute object-cover"
 					/>
-					<div className="absolute top-0 left-0 w-full h-full bg-foreground/70" />
+					<div className="absolute top-0 left-0 w-full h-full bg-dark/70" />
 				</div>
 
 				<div className="flex-1 bg-[#D2DBDB] rounded-4xl p-2 flex flex-col gap-4 justify-between">
-					<p className="text-foreground font-dm-serif-display font-bold text-center px-3 py-7 leading-8 text-[26px] mb-2">
+					<p className="text-dark font-dm-serif-display font-bold text-center px-3 py-7 leading-8 text-[26px] mb-2">
 						Join 10,000+ People Dreams
 					</p>
 
 					<Button
 						variant={"outline"}
-						className="w-full bg-foreground/15 text-foreground hover:bg-foreground/15 hover:text-foreground border-none justify-between px-0 py-6 pr-2 pl-4"
+						className="w-full bg-dark/15 text-dark hover:bg-dark/15 hover:text-dark border-none justify-between px-0 py-6 pr-2 pl-4"
 					>
 						Join Community{" "}
-						<div className="bg-foreground size-9 flex items-center justify-center rounded-full">
+						<div className="bg-dark size-9 flex items-center justify-center rounded-full">
 							<LuArrowUpRight className="text-primary size-5" />
 						</div>
 					</Button>
@@ -124,7 +124,7 @@ const Banner = () => {
 						fill
 						className="absolute object-cover"
 					/>
-					<div className="absolute top-0 left-0 w-full h-full bg-foreground/70" />
+					<div className="absolute top-0 left-0 w-full h-full bg-dark/70" />
 				</div>
 
 				<div className="flex flex-col gap-2 h-[430px]">
@@ -140,10 +140,10 @@ const Banner = () => {
 						</div>
 						<Button
 							variant={"outline"}
-							className="w-full bg-foreground/15 text-foreground hover:bg-foreground/15 hover:text-foreground border-foreground/5 justify-between px-0 py-6 pr-2 pl-4"
+							className="w-full bg-dark/15 text-dark hover:bg-dark/15 hover:text-dark border-dark/5 justify-between px-0 py-6 pr-2 pl-4"
 						>
 							Explore more{" "}
-							<div className="bg-foreground size-9 flex items-center justify-center rounded-full">
+							<div className="bg-dark size-9 flex items-center justify-center rounded-full">
 								<LuArrowUpRight className="text-primary size-5" />
 							</div>
 						</Button>

@@ -2,7 +2,7 @@ import Footer from "@/components/layout/footer";
 import NavBar from "@/components/layout/navbar";
 import type { Metadata } from "next";
 import { DM_Serif_Display, Onest } from "next/font/google";
-import "../styles/globals.css";
+import "../../styles/globals.css";
 
 const DMSerifDisplay = DM_Serif_Display({
 	variable: "--font-dm-serif-display",

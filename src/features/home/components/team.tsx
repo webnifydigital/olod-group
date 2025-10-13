@@ -6,7 +6,7 @@ const Team = () => {
 		<section className="olood-container section-bottom">
 			<article className="mb-12 flex flex-col items-center justify-center gap-3">
 				<h2 className="title">Meet Our Team</h2>
-				<p className="text-muted-foreground text-center text-lg w-[500px]">
+				<p className="text-muted-dark text-center text-lg w-[500px]">
 					The world&apos;s largest social fundraising platform, optimized for
 					your charity in a more easy way
 				</p>
@@ -29,8 +29,8 @@ const Team = () => {
 							</div> */}
 						</div>
 						<article>
-							<p className="text-foreground font-bold text-lg">{team.name}</p>
-							<p className="text-muted-foreground text-sm">{team.position}</p>
+							<p className="text-dark font-bold text-lg">{team.name}</p>
+							<p className="text-muted-dark text-sm">{team.position}</p>
 						</article>
 					</div>
 				))}

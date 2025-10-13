@@ -39,7 +39,7 @@ const OurMission = () => {
 			<article className="w-[55%]">
 				<p className="text-green-dark font-bold italic mb-3">Our Mission</p>
 				<h2 className="title mb-6">We are in a mission to help the helpless</h2>
-				<p className="text-secondary-foreground text-[15px] mb-10">
+				<p className="text-secondary-dark text-[15px] mb-10">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
 					perferendis quo doloremque eligendi repellat vitae quidem cumque
 					temporibus dolor numquam nobis consectetur, natus dolore hic non

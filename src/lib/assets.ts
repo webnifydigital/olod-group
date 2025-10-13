@@ -8,6 +8,7 @@ import helpIcon from "../../public/assets/icons/help.svg";
 import supportIcon from "../../public/assets/icons/support.svg";
 import vitalResourcesIcon from "../../public/assets/icons/vital-resources.svg";
 
+import star from "../../public/assets/icons/star.png";
 import about_us from "../../public/assets/images/about_us.jpg";
 import banner_1 from "../../public/assets/images/banner_1.jpg";
 import banner_2 from "../../public/assets/images/banner_2.jpg";
@@ -56,4 +57,5 @@ export {
 	team_4,
 	banner_1,
 	banner_2,
+	star,
 };

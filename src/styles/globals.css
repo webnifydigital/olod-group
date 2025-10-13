@@ -4,70 +4,67 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-	--color-background: var(--background);
-	--color-foreground: var(--foreground);
+	/* Font */
 	--font-onest: var(--font-onest);
 	--font-dm-serif-display: var(--font-dm-serif-display);
+
+	/* Brand Colors */
+	--color-foreground: var(--foreground);
+	--color-muted-foreground: var(--muted-foreground);
+	--color-background: var(--background);
+	--color-accent-dark: var(--accent-dark);
+	--color-accent: var(--accent);
+	--color-primary-dark: var(--primary-dark);
+	--color-primary: var(--primary);
+	--color-green-dark-dark: var(--green-dark-dark);
+	--color-green-dark: var(--green-dark);
+	--color-destructive: var(--destructive);
+
+	/* Sidebar Colors */
 	--color-sidebar-ring: var(--sidebar-ring);
 	--color-sidebar-border: var(--sidebar-border);
-	--color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+	--color-sidebar-accent-dark: var(--sidebar-accent-dark);
 	--color-sidebar-accent: var(--sidebar-accent);
-	--color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+	--color-sidebar-primary-dark: var(--sidebar-primary-dark);
 	--color-sidebar-primary: var(--sidebar-primary);
-	--color-sidebar-foreground: var(--sidebar-foreground);
+	--color-sidebar-dark: var(--sidebar-dark);
 	--color-sidebar: var(--sidebar);
+
+	/* Chart Colors */
 	--color-chart-5: var(--chart-5);
 	--color-chart-4: var(--chart-4);
 	--color-chart-3: var(--chart-3);
 	--color-chart-2: var(--chart-2);
 	--color-chart-1: var(--chart-1);
+
+	/* Elements Colors */
+	--color-popover-dark: var(--popover-dark);
+	--color-popover: var(--popover);
+	--color-card-dark: var(--card-dark);
+	--color-card: var(--card);
 	--color-ring: var(--ring);
 	--color-input: var(--input);
 	--color-border: var(--border);
-	--color-destructive: var(--destructive);
-	--color-accent-foreground: var(--accent-foreground);
-	--color-accent: var(--accent);
-	--color-muted-foreground: var(--muted-foreground);
-	--color-muted: var(--muted);
-	--color-secondary-foreground: var(--secondary-foreground);
-	--color-secondary: var(--secondary);
-	--color-primary-foreground: var(--primary-foreground);
-	--color-primary: var(--primary);
-	--color-green-dark-foreground: var(--green-dark-foreground);
-	--color-green-dark: var(--green-dark);
-	--color-popover-foreground: var(--popover-foreground);
-	--color-popover: var(--popover);
-	--color-card-foreground: var(--card-foreground);
-	--color-card: var(--card);
-	--radius-sm: calc(var(--radius) - 4px);
-	--radius-md: calc(var(--radius) - 2px);
-	--radius-lg: var(--radius);
-	--radius-xl: calc(var(--radius) + 4px);
 }
 
 :root {
-	--radius: 0.625rem;
+	/* Brand Colors */
 	--background: #ffffff;
 	--foreground: #232323;
-	--secondary: #f7f7f7;
-	--secondary-foreground: #6f6f6f;
-	--muted: #f7f7f7;
 	--muted-foreground: #8e8e8e;
 	--accent: #f7f7f7;
-	--accent-foreground: #343434;
+	--accent-dark: #343434;
 	--destructive: #dc2626;
-
-	/* Brand Colors */
 	--primary: #c8f167;
-	--primary-foreground: #043f2d;
+	--primary-dark: #043f2d;
 	--green-dark: #043f2d;
-	--green-dark-foreground: #fbfbfb;
+	--green-dark-dark: #fbfbfb;
 
 	/* Elements Colors */
 	--card: #ffffff;
-	--card-foreground: #252525;
+	--card-dark: #252525;
 	--popover: #ffffff;
-	--popover-foreground: #252525;
+	--popover-dark: #252525;
 	--border: #ebebeb;
 	--input: #ebebeb;
 	--ring: #b5b5b5;
@@ -81,13 +78,53 @@
 
 	/* Sidebar Colors */
 	--sidebar: #fbfbfb;
-	--sidebar-foreground: #252525;
+	--sidebar-dark: #252525;
 	--sidebar-primary: #343434;
-	--sidebar-primary-foreground: #fbfbfb;
+	--sidebar-primary-dark: #fbfbfb;
 	--sidebar-accent: #f7f7f7;
-	--sidebar-accent-foreground: #343434;
+	--sidebar-accent-dark: #343434;
 	--sidebar-border: #ebebeb;
 	--sidebar-ring: #b5b5b5;
+}
+
+.dark {
+	/* Brand Colors */
+	--background: #232323;
+	--foreground: #ffffff;
+	--muted-foreground: #737373;
+	--accent: #262626;
+	--accent-dark: #e5e5e5;
+	--destructive: #ef4444;
+	--primary: #a3d948;
+	--primary-dark: #d4f5c3;
+	--green-dark: #d4f5c3;
+	--green-dark-dark: #1a1a1a;
+
+	/* Elements Colors */
+	--card: #171717;
+	--card-dark: #fafafa;
+	--popover: #171717;
+	--popover-dark: #fafafa;
+	--border: #2a2a2a;
+	--input: #2a2a2a;
+	--ring: #525252;
+
+	/* Chart Colors */
+	--chart-1: #fb923c;
+	--chart-2: #60a5fa;
+	--chart-3: #3b82f6;
+	--chart-4: #a3e635;
+	--chart-5: #facc15;
+
+	/* Sidebar Colors */
+	--sidebar: #1a1a1a;
+	--sidebar-dark: #fafafa;
+	--sidebar-primary: #e5e5e5;
+	--sidebar-primary-dark: #1a1a1a;
+	--sidebar-accent: #262626;
+	--sidebar-accent-dark: #e5e5e5;
+	--sidebar-border: #2a2a2a;
+	--sidebar-ring: #525252;
 }
 
 @layer base {
@@ -108,5 +145,9 @@
 
 	.section-bottom {
 		@apply mb-28;
+	}
+
+	.bgAuth {
+		@apply bg-[url(/assets/images/auth-bg.jpg)] bg-cover;
 	}
 }

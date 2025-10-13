@@ -14,7 +14,7 @@ const AboutUs = () => {
 				<h2 className="title mb-6">
 					We at the Mission In Agape (MIA) Foundation
 				</h2>
-				<p className="text-secondary-foreground mb-10">
+				<p className="text-secondary-dark mb-10">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
 					perferendis quo doloremque eligendi repellat vitae quidem cumque
 					temporibus dolor numquam nobis consectetur, natus dolore hic non
@@ -49,7 +49,9 @@ const AboutUs = () => {
 				<div className="rounded-3xl p-4 border border-white/10 bg-white/10 backdrop-blur-md absolute bottom-6 left-6 w-[350px]">
 					<div className="rounded-3xl bg-white p-6">
 						<div className="flex items-center justify-between mb-4">
-							<p className="font-dm-serif-display text-green-dark text-lg">Olod Group</p>
+							<p className="font-dm-serif-display text-green-dark text-lg">
+								Olod Group
+							</p>
 							<div className="bg-gradient-to-t from-muted to-transparent rounded-xl px-4 py-2">
 								<div className="text-green-dark font-semibold flex items-center text-sm gap-1.5">
 									<div className="rounded-full size-2 bg-green-dark" />
@@ -58,10 +60,10 @@ const AboutUs = () => {
 							</div>
 						</div>
 
-						<p className="text-foreground text-xl font-medium mb-4">
+						<p className="text-dark text-xl font-medium mb-4">
 							SME Empowerment Program
 						</p>
-						<p className="text-foreground mb-8 text-sm">
+						<p className="text-dark mb-8 text-sm">
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 						</p>
 

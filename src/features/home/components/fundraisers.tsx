@@ -34,30 +34,30 @@ const Fundraisers = () => {
 								</div>
 
 								<div className="mb-4 space-y-2">
-									<p className="text-foreground font-bold text-xl leading-[26px]">
+									<p className="text-dark font-bold text-xl leading-[26px]">
 										{item.title}
 									</p>
-									<p className="text-secondary-foreground font-medium text-sm">
+									<p className="text-secondary-dark font-medium text-sm">
 										{item.description}
 									</p>
 								</div>
 
-								<p className="text-secondary-foreground text-sm font-medium mb-1">
-									<span className="text-foreground font-semibold text-base">
+								<p className="text-secondary-dark text-sm font-medium mb-1">
+									<span className="text-dark font-semibold text-base">
 										${item.amountRaised}
 									</span>{" "}
 									raised of ${item.goalAmount} goal
 								</p>
 
-								<div className="w-full h-2 rounded-full bg-muted-foreground/20 mb-3">
+								<div className="w-full h-2 rounded-full bg-muted-dark/20 mb-3">
 									<div className="w-[80%] h-full bg-gradient-to-r from-primary to-[#4B9E45] rounded-full" />
 								</div>
 
 								<div className="flex items-center justify-between gap-2">
 									<div className="flex items-center gap-1">
 										<TiHeartFullOutline className="text-red-500" />
-										<p className="text-sm text-secondary-foreground font-medium">
-											<span className="text-foreground font-semibold">
+										<p className="text-sm text-secondary-dark font-medium">
+											<span className="text-dark font-semibold">
 												{item.supporters}
 											</span>{" "}
 											supporters
@@ -65,7 +65,7 @@ const Fundraisers = () => {
 									</div>
 
 									<div className="border px-3 py-1 rounded-full">
-										<p className="text-[13px] text-secondary-foreground font-medium">
+										<p className="text-[13px] text-secondary-dark font-medium">
 											{item.category}
 										</p>
 									</div>

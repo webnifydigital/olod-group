@@ -14,7 +14,7 @@ const FAQ = () => {
 				<article className="mb-10 flex items-center justify-between">
 					<div>
 						<h2 className="title mb-2">Frequently Asked Questions</h2>
-						<p className="text-center text-foreground">
+						<p className="text-center text-dark">
 							Have another question? Email us at support@olod.com
 						</p>
 					</div>
@@ -36,7 +36,7 @@ const FAQ = () => {
 					className="w-full"
 					defaultValue="item-1"
 				>
-					<AccordionItem value="item-1" className="border-foreground/20">
+					<AccordionItem value="item-1" className="border-dark/20">
 						<AccordionTrigger className="text-green-dark font-semibold text-xl py-7">
 							1. What is the purpose of your charity?
 						</AccordionTrigger>
@@ -49,7 +49,7 @@ const FAQ = () => {
 							</p>
 						</AccordionContent>
 					</AccordionItem>
-					<AccordionItem value="item-2" className="border-foreground/20">
+					<AccordionItem value="item-2" className="border-dark/20">
 						<AccordionTrigger className="text-green-dark font-semibold text-xl py-7">
 							2. How can I make a donation?
 						</AccordionTrigger>
@@ -62,7 +62,7 @@ const FAQ = () => {
 							</p>
 						</AccordionContent>
 					</AccordionItem>
-					<AccordionItem value="item-3" className="border-foreground/20">
+					<AccordionItem value="item-3" className="border-dark/20">
 						<AccordionTrigger className="text-green-dark font-semibold text-xl py-7">
 							3. Is ma donation tax-deductible?
 						</AccordionTrigger>
@@ -75,7 +75,7 @@ const FAQ = () => {
 							</p>
 						</AccordionContent>
 					</AccordionItem>
-					<AccordionItem value="item-4" className="border-foreground/20">
+					<AccordionItem value="item-4" className="border-dark/20">
 						<AccordionTrigger className="text-green-dark font-semibold text-xl py-7">
 							4. How are my donations used?
 						</AccordionTrigger>

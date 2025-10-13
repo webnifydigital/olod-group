@@ -33,7 +33,7 @@ const NavLinks = () => {
 				const isActive = pathname === item.path;
 
 				return (
-					<li key={item.id} className="text-foreground">
+					<li key={item.id} className="text-dark">
 						<Link
 							href={item.path}
 							className={`relative py-2 transition-colors duration-200 hover:text-primary ${

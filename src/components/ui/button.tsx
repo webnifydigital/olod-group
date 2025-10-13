@@ -5,19 +5,17 @@ import type * as React from "react";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-	"inline-flex gap-2 items-center justify-center whitespace-nowrap rounded-full relative z-10 !cursor-pointer text-[15px] font-medium outline-none overflow-hidden [transition:color_0.4s_ease-in-out]",
+	"inline-flex gap-2 items-center justify-center whitespace-nowrap rounded-[10px] relative z-10 !cursor-pointer text-[15px] font-medium outline-none overflow-hidden [transition:color_0.4s_ease-in-out]",
 	{
 		variants: {
 			variant: {
-				default:
-					"bg-primary text-primary-foreground",
-				secondary: "bg-green-dark text-primary",
+				default: "bg-primary text-primary-dark",
+				dark: "bg-green-dark text-primary",
 				white: "bg-white text-green-dark",
-				outline: "border border-green-dark bg-transparent hover:bg-green-dark hover:text-primary text-green-dark duration-150 ease-linear",
+				outline:
+					"border border-green-dark bg-transparent hover:bg-green-dark hover:text-primary text-green-dark duration-150 ease-linear",
 				destructive:
 					"bg-destructive text-white hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
-				ghost:
-					"hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
 				link: "text-primary underline-offset-4 hover:underline",
 			},
 			size: {

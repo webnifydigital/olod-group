@@ -128,7 +128,7 @@ const Footer = ({
 							</Link>
 						</div>
 						<p className="max-w-[70%] text-sm text-background">{description}</p>
-						<ul className="flex items-center space-x-6 text-muted-foreground">
+						<ul className="flex items-center space-x-6 text-muted-dark">
 							{socialLinks.map((social) => (
 								<li
 									key={social.href}
@@ -143,7 +143,7 @@ const Footer = ({
 
 						<div className="bg-background rounded-full w-full flex items-center p-1">
 							<input
-								className="outline-none border-none px-4 py-2.5 text-sm flex-1 text-foreground font-medium"
+								className="outline-none border-none px-4 py-2.5 text-sm flex-1 text-dark font-medium"
 								placeholder="Enter your email address"
 							/>
 							<button
