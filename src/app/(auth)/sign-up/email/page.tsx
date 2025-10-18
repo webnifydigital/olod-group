@@ -1,10 +1,10 @@
 import AuthLayout from "@/features/auth/components/auth-layout";
-import SignUpForm from "@/features/auth/components/sign-up-form";
+import EmailForm from "@/features/auth/components/email-form";
 
 const SignInPage = () => {
 	return (
 		<AuthLayout>
-			<SignUpForm />
+			<EmailForm />
 		</AuthLayout>
 	);
 };

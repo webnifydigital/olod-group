@@ -19,6 +19,7 @@
 	--color-green-dark-dark: var(--green-dark-dark);
 	--color-green-dark: var(--green-dark);
 	--color-destructive: var(--destructive);
+	--color-green: var(--green);
 
 	/* Sidebar Colors */
 	--color-sidebar-ring: var(--sidebar-ring);
@@ -59,6 +60,7 @@
 	--primary-dark: #043f2d;
 	--green-dark: #043f2d;
 	--green-dark-dark: #fbfbfb;
+	--green: #52b788;
 
 	/* Elements Colors */
 	--card: #ffffff;
@@ -99,6 +101,7 @@
 	--primary-dark: #d4f5c3;
 	--green-dark: #d4f5c3;
 	--green-dark-dark: #1a1a1a;
+	--green: #52b788;
 
 	/* Elements Colors */
 	--card: #171717;

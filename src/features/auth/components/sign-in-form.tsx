@@ -45,92 +45,79 @@ const SignInForm = () => {
 	return (
 		<>
 			<div className="space-y-10">
-				<div className="space-y-10">
-					<div>
-						<h1 className="text-foreground text-[26px] font-semibold">
-							Log in to your Account
-						</h1>
-						<p className="text-[13px] text-muted-foreground">
-							Enter your credentials to access your account.
-						</p>
-					</div>
-					<Form {...form}>
-						<form
-							onSubmit={form.handleSubmit(onSubmit)}
-							className="space-y-7 max-w-3xl mx-auto"
-						>
-							<div className="space-y-3">
-								<FormField
-									control={form.control}
-									name="username"
-									render={({ field }) => (
-										<FormItem>
-											<FormControl>
-												<Input
-													placeholder="Enter your username"
-													className=""
-													type="text"
-													{...field}
-												/>
-											</FormControl>
-											<FormMessage />
-										</FormItem>
-									)}
-								/>
-
-								<FormField
-									control={form.control}
-									name="password"
-									render={({ field }) => (
-										<FormItem>
-											<FormControl>
-												<PasswordInput
-													placeholder="Enter your password"
-													className=""
-													{...field}
-												/>
-											</FormControl>
-											<FormMessage />
-										</FormItem>
-									)}
-								/>
-								<Link
-									href="/forgot-password"
-									className="text-[13px] font-medium text-green-dark hover:underline duration-200 flex justify-end"
-								>
-									Forgot Password
-								</Link>
-							</div>
-
-							<LoadingButton
-								variant={"dark"}
-								type="submit"
-								className="w-full py-[24px] relative"
-								/* isLoading={isPending}
-						disabled={isPending} */
-							>
-								Sign In{" "}
-								<FiLogIn className="size-4 text-primary/60 absolute right-4" />
-							</LoadingButton>
-						</form>
-					</Form>
-				</div>
-				<div className="flex flex-col items-center justify-center">
-					<p className="text-foreground text-sm">
-						Do not hesitate to contact us
+				<div>
+					<h1 className="text-foreground text-[26px] font-semibold">
+						Log in to your Account
+					</h1>
+					<p className="text-sm text-muted-foreground">
+						Enter your credentials to access your account.
 					</p>
-					<Link
-						href="mailto:support@webnifydigital.com"
-						className="text-center text-green-dark text-sm hover:underline"
-					>
-						support@olodgroup.com
-					</Link>
 				</div>
+				<Form {...form}>
+					<form
+						onSubmit={form.handleSubmit(onSubmit)}
+						className="space-y-7 max-w-3xl mx-auto"
+					>
+						<div className="space-y-3">
+							<FormField
+								control={form.control}
+								name="username"
+								render={({ field }) => (
+									<FormItem>
+										<FormControl>
+											<Input
+												placeholder="Enter your username"
+												className=""
+												type="text"
+												{...field}
+											/>
+										</FormControl>
+										<FormMessage />
+									</FormItem>
+								)}
+							/>
+
+							<FormField
+								control={form.control}
+								name="password"
+								render={({ field }) => (
+									<FormItem>
+										<FormControl>
+											<PasswordInput
+												placeholder="Enter your password"
+												className=""
+												{...field}
+											/>
+										</FormControl>
+										<FormMessage />
+									</FormItem>
+								)}
+							/>
+							<Link
+								href="/forgot-password"
+								className="text-[13px] font-medium text-green-dark hover:underline duration-200 flex justify-end"
+							>
+								Forgot Password
+							</Link>
+						</div>
+
+						<LoadingButton
+							variant={"dark"}
+							type="submit"
+							className="w-full py-[24px] relative"
+							/* isLoading={isPending}
+						disabled={isPending} */
+						>
+							Sign In{" "}
+							<FiLogIn className="size-4 text-primary/60 absolute right-4" />
+						</LoadingButton>
+					</form>
+				</Form>
 			</div>
 
 			<div className="flex justify-end">
 				<Link
-					href="/sign-up"
+					href="/sign-up/email"
 					className="text-foreground font-medium underline text-sm"
 				>
 					Create an Account
