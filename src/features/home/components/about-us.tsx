@@ -67,7 +67,7 @@ const AboutUs = () => {
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 						</p>
 
-						<Button variant={"secondary"}>
+						<Button variant={"default"}>
 							Join Our Community <LuArrowUpRight />
 						</Button>
 					</div>

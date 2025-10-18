@@ -34,7 +34,7 @@ const JoinOurCommunity = () => {
 				<p className="text-center text-dark font-medium mb-3">
 					people already joining
 				</p>
-				<Button variant={"secondary"}>Yes I want to join community</Button>
+				<Button variant={"outline"}>Yes I want to join community</Button>
 			</div>
 
 			<Image
