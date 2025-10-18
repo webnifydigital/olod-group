@@ -43,8 +43,8 @@ const EmailForm = () => {
 		}); */
 	}
 	return (
-		<div className="space-y-10">
-			<div>
+		<div>
+			<div className="mb-10">
 				<h1 className="text-foreground lg:text-[26px] text-xl font-semibold">
 					Get Started Now
 				</h1>
@@ -53,52 +53,50 @@ const EmailForm = () => {
 				</p>
 			</div>
 
-			<div className="space-y-4">
-				<Form {...form}>
-					<form
-						onSubmit={form.handleSubmit(onSubmit)}
-						className="space-y-3 max-w-3xl mx-auto"
-					>
-						<FormField
-							control={form.control}
-							name="email"
-							render={({ field }) => (
-								<FormItem>
-									<FormControl>
-										<Input
-											placeholder="Enter your email"
-											className=""
-											type="email"
-											{...field}
-										/>
-									</FormControl>
-									<FormMessage />
-								</FormItem>
-							)}
-						/>
+			<Form {...form}>
+				<form
+					onSubmit={form.handleSubmit(onSubmit)}
+					className="space-y-3 max-w-3xl mx-auto"
+				>
+					<FormField
+						control={form.control}
+						name="email"
+						render={({ field }) => (
+							<FormItem>
+								<FormControl>
+									<Input
+										placeholder="Enter your email"
+										className=""
+										type="email"
+										{...field}
+									/>
+								</FormControl>
+								<FormMessage />
+							</FormItem>
+						)}
+					/>
 
-						<LoadingButton
-							variant={"dark"}
-							type="submit"
-							className="w-full py-[24px] relative"
-							/* isLoading={isPending}
+					<LoadingButton
+						variant={"dark"}
+						type="submit"
+						className="w-full py-[24px] relative"
+						/* isLoading={isPending}
 						disabled={isPending} */
-						>
-							Next{" "}
-							<IoIosArrowRoundForward className="size-5 text-primary absolute right-4" />
-						</LoadingButton>
-					</form>
-				</Form>
-
-				<div className="flex items-center gap-2">
-					<p className="text-sm text-foreground">Already have an account?</p>
-					<Link
-						href="/sign-in"
-						className="text-sm text-green-dark hover:underline px-0 py-0 h-auto rounded-none"
 					>
-						Sign In
-					</Link>
-				</div>
+						Next{" "}
+						<IoIosArrowRoundForward className="size-5 text-primary absolute right-4" />
+					</LoadingButton>
+				</form>
+			</Form>
+
+			<div className="flex items-center gap-2 mt-4">
+				<p className="text-sm text-foreground">Already have an account?</p>
+				<Link
+					href="/sign-in"
+					className="text-sm text-green-dark hover:underline px-0 py-0 h-auto rounded-none"
+				>
+					Sign In
+				</Link>
 			</div>
 		</div>
 	);

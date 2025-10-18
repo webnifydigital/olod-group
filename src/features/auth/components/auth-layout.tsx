@@ -1,3 +1,5 @@
+"use client";
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
 	Carousel,
@@ -8,8 +10,10 @@ import {
 } from "@/components/ui/carousel";
 import { Separator } from "@/components/ui/separator";
 import { star } from "@/lib/assets";
+import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { FaQuoteLeft } from "react-icons/fa";
 
 const AuthLayout = ({
@@ -17,12 +21,27 @@ const AuthLayout = ({
 }: Readonly<{
 	children: React.ReactNode;
 }>) => {
+	const pathname = usePathname();
+
 	return (
 		<main className="flex h-screen">
 			<div className="lg:w-[50%] w-full bg-white md:px-24 px-5 pb-3 pt-10 flex flex-col justify-between">
 				<p className="text-foreground font-bold text-xl">OLOD GROUP</p>
 
-				{children}
+				<AnimatePresence mode="wait">
+					<motion.div
+						key={pathname}
+						initial={{ opacity: 0, x: 20 }}
+						animate={{ opacity: 1, x: 0 }}
+						exit={{ opacity: 0, x: -20 }}
+						transition={{
+							duration: 0.3,
+							ease: "easeInOut",
+						}}
+					>
+						{children}
+					</motion.div>
+				</AnimatePresence>
 
 				<div className="flex md:flex-row flex-col items-center justify-center gap-2">
 					<p className="text-muted-foreground text-[13px]">
@@ -105,8 +124,8 @@ const AuthLayout = ({
 						</h2>
 						<p className="text-muted-foreground text-sm mb-4">
 							The resulting interactive reports include updated information
-							about approved or investigational treatments for each patient’s
-							dental needs.
+							about approved or investigational treatments for each
+							patient&apos;s dental needs.
 						</p>
 
 						<div className="flex items-center gap-4 border-t border-dashed pt-4">
