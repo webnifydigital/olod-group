@@ -33,7 +33,7 @@ const CreateAccountForm = () => {
 	return (
 		<div className="space-y-8">
 			<div>
-				<h1 className="text-foreground text-[26px] font-semibold">
+				<h1 className="text-foreground lg:text-[26px] text-xl font-semibold">
 					Create Account
 				</h1>
 				<p className="text-sm text-muted-foreground">

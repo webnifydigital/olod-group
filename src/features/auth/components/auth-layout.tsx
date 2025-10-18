@@ -19,12 +19,12 @@ const AuthLayout = ({
 }>) => {
 	return (
 		<main className="flex h-screen">
-			<div className="w-[50%] bg-white md:px-24 px-5 pb-3 pt-10 flex flex-col justify-between">
+			<div className="lg:w-[50%] w-full bg-white md:px-24 px-5 pb-3 pt-10 flex flex-col justify-between">
 				<p className="text-foreground font-bold text-xl">OLOD GROUP</p>
 
 				{children}
 
-				<div className="flex items-center justify-center gap-2">
+				<div className="flex md:flex-row flex-col items-center justify-center gap-2">
 					<p className="text-muted-foreground text-[13px]">
 						@copy; {new Date().getFullYear()}{" "}
 						<span className="font-medium text-green-dark">OLOD GROUP</span> All

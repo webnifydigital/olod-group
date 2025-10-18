@@ -65,7 +65,7 @@ const RoleForm = () => {
 	return (
 		<div className="space-y-10">
 			<div>
-				<h1 className="text-foreground text-[26px] font-semibold">
+				<h1 className="text-foreground lg:text-[26px] text-xl font-semibold">
 					What do you want to be?
 				</h1>
 			</div>

@@ -46,7 +46,7 @@ const SignInForm = () => {
 		<>
 			<div className="space-y-10">
 				<div>
-					<h1 className="text-foreground text-[26px] font-semibold">
+					<h1 className="text-foreground lg:text-[26px] text-xl font-semibold">
 						Log in to your Account
 					</h1>
 					<p className="text-sm text-muted-foreground">

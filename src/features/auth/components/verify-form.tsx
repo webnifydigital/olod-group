@@ -48,7 +48,7 @@ const VerifyForm = () => {
 	return (
 		<div className="space-y-10">
 			<div>
-				<h1 className="text-foreground text-[26px] font-semibold">
+				<h1 className="text-foreground lg:text-[26px] text-xl font-semibold">
 					Email Verification
 				</h1>
 				<p className="text-sm text-muted-foreground">
